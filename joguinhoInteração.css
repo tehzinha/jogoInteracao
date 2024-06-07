@@ -1,0 +1,67 @@
+body {
+    background-color: #f08fe5;
+    font-family: 'Arial', sans-serif;
+  }
+#game {
+    position: absolute;
+    width: 950px;
+    height: 550px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    left: 170px;
+  }
+
+h1{
+    font-size: 36px;
+    color: #f08fe5;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    font-size: 28px;
+    color: #a56d9e;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+input{
+    margin-left: 380px;
+}
+
+button{
+    font-size: 18px;
+    background-color: #f08fe5;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 380px;
+    margin-top:45px;
+}
+
+
+.selecionavel {
+    border: 2px solid #f08fe5; 
+    transition: border 0.3s;
+    border-radius: 50px;
+}
+
+
+.selecionavel:hover {
+    box-shadow: 0 0 5px #56055f; 
+}
+
+#sexoM{
+    margin-left: 200px;
+}
+
+#fotos-container{
+    margin-top: 30px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMEÇO!</title>
+    <link rel="stylesheet" href="comeco.css">
+</head>
+<body>
+    <div id="game">
+        <div id="personagem"></div>
+        <div id="conversa">
+            <p id="dialogue">Pronto pra começar? Pressione Enter</p>
+        </div>
+    </div>
+    <script src="comeco.js"></script>
+    <script>
+        
+        document.addEventListener('keydown', handleKeyPress);
+        
+        // Inicializa a fala na tela
+        updateDialogue();
+    </script>
+</body>
+</html>
