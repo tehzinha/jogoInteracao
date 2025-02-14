@@ -1,0 +1,81 @@
+/* Fundo com vídeo */
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container do jogo */
+#game {
+    background: rgba(30, 30, 30, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    width: 400px;
+}
+
+/* Input de nome */
+input[type="text"] {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Grupo de botões */
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+/* Botões de gênero */
+.gender-label {
+    padding: 15px 20px;
+    background: #ff69b4;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.gender-label:hover {
+    background: #d85a9f;
+    transform: scale(1.05);
+}
+
+.selecionado {
+    background: #a13574 !important;
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
+}
+
+/* Botão Continuar */
+button {
+    background: #888;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: not-allowed;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Quando estiver pronto para ser clicado */
+button.ativo {
+    background: #ff69b4;
+    cursor: pointer;
+}
+
+button.ativo:hover {
+    background: #d85a9f;
+    transform: scale(1.05);
+}
